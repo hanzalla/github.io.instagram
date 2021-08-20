@@ -82,11 +82,12 @@ input [type=text], [type=password]{
 }
 .text{
     position: absolute;
-    top: 65%;
+    top: 67%;
     margin-top: 6%;
     left: 46%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     text-transform: uppercase;
-    font-size:20px;
+    font-size:18px;
     color:#8E8E8E;
 }
 .facebook img{
@@ -115,3 +116,68 @@ input [type=text], [type=password]{
     text-transform: capitalize;
     font-size: 14px;
 }
+.container-1{
+    width: 360px;
+    height: 80px;
+    margin: -3.2% auto;
+    background: #ffff;
+    border: 2px solid #000;
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+}
+.signup{
+    text-align: center;
+    font-size: 17px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 8% auto;
+
+}
+.signup::first-letter{
+    text-transform: capitalize;
+}
+.signup a{
+    text-decoration: none;
+    color:#5295F6;
+    margin-left: 2px;
+}
+.app{
+    width: 360px;
+    height: 40px;
+    margin: 4% auto;
+    background: #ffff;
+    /* border: 2px solid #000; */
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+}
+.app p{
+    margin-top: 2%;
+    text-align: center;
+    font-size: 20px;
+}
+.app::first-letter{
+    text-transform: capitalize;
+}
+/* .container-2{
+    width: 360px;
+    height: 60px;
+    margin: -4% auto;
+    background: #ffff;
+    border: 2px solid #000;
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+
+}
+#apple{
+    width: 40%;
+    height: 75px;
+    display: inline-block;
+    margin-top: -2%;
+}
+#google{
+    width: 40%;
+    height:45px;
+    /* margin-top: -15px; */
+} */
