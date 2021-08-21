@@ -55,8 +55,6 @@ body{
 
 input [type=text], [type=password]{
     text-transform: capitalize;
-    /* background-color: #FAFAFA; */
-   
 
 }
 .line{
@@ -89,6 +87,7 @@ input [type=text], [type=password]{
     text-transform: uppercase;
     font-size:18px;
     color:#8E8E8E;
+    justify-content: space-between;
 }
 .facebook img{
     position: absolute;
@@ -159,25 +158,38 @@ input [type=text], [type=password]{
 .app::first-letter{
     text-transform: capitalize;
 }
-/* .container-2{
-    width: 360px;
-    height: 60px;
-    margin: -4% auto;
-    background: #ffff;
-    border: 2px solid #000;
-    border-radius: 5px;
-    position: relative;
-    overflow: hidden;
-
-}
 #apple{
-    width: 40%;
-    height: 75px;
+    width: 135px;
+    height: 55px;
     display: inline-block;
-    margin-top: -2%;
+    margin: auto;
+   
 }
 #google{
-    width: 40%;
-    height:45px;
-    /* margin-top: -15px; */
-} */
+    width: 135px;
+    height: 55px;
+    display: inline-block;
+
+}
+.container-2 .btn{
+    width: 320px;
+    height: auto;
+    margin: -3% auto;
+    position: relative;
+    overflow: hidden;
+}
+.container-2 .btn img{
+    margin-left: 8%;
+}
+/* .continer-2 .btn{
+    position:absolute;
+    max-width: 320px;
+    top: 65%;
+    left: 45%;
+    right: 45%;
+    margin:  auto;
+    justify-content: space-between; */
+    /* padding-right: %; */
+
+
+
